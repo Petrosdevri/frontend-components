@@ -1,0 +1,119 @@
+:root {
+    --dark-grey: #333333;
+    --light-grey: #555;
+    --border-grey: #CFCFCF;
+}
+  
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+  
+body {
+    background: #020E26;
+    height: 500px;
+}
+  
+.menu {
+    margin: 0 auto;
+    width: 70rem;
+    background: #F7F6F5;
+    border-top: 1px solid var(--border-grey);
+    box-shadow: 1px 1px 2px #000000;
+}
+  
+.main-menu {
+    width: 90%;
+    margin: 0 auto;
+}
+  
+.menu-item {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid var(--border-grey);
+}
+  
+.menu-item:hover {
+    background: #FFFFFF;
+    border-bottom: none;
+    border-right: 1px solid #CFCFCF;
+    border-left: 1px solid #CFCFCF;
+    margin: 0 -1px;
+}
+  
+/*.menu-main-item--current .menu__main__item__link {
+    color: var(--dark-grey);
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.3rem;
+}*/
+  
+.menu-item-link {
+    text-decoration: none;
+    color: var(--light-grey);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+  
+.menu-item-link:hover {
+    text-decoration: underline;
+    color: #1C60BB;
+}
+  
+.menu-sub {
+    height: 18rem;
+    background: #FFFFFF;
+    display: none;
+}
+  
+.menu-sub-categories {
+    vertical-align: top;
+    display: inline-block;
+    width: calc(40% - 1rem - 2px);
+    padding: 0.8rem;
+    margin-left: 1rem;
+}
+  
+.menu-sub-image {
+    display: inline-block;
+    width: calc(60% - 2px);
+    padding: 0.5rem;
+    height: 100%;
+}
+  
+.menu-sub-image-img {
+    width: 100%;
+    height: 100%;
+}
+  
+.menu-sub-categories-category {
+    display: inline-block;
+    width: calc(50% - 2px);
+    vertical-align: top;
+}
+  
+.menu-sub-categories-header {
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--border-grey);
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+  
+.menu-sub-categories-items {
+    list-style: none;
+    padding: 0;
+    line-height: 1.6rem;
+    color: var(--light-grey);
+}
+  
+.menu-sub-categories-item-link {
+    text-decoration: none;
+    color: var(--light-grey);
+    font-size: 14px;
+    font-weight: 800;
+}
+  
+.menu-sub-categories-item-link:hover {
+    text-decoration: underline;
+    color: #FF944D;
+}
