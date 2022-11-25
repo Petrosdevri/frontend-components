@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Autovalidating Form</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <form class="signup">
+                <h1>Signup Form</h1>
+                <fieldset class="signup-field signup-field--name">
+                    <legend class="signup-field-header">Name</legend>
+                    <div class="signup-field-inputs">
+                        <input type="text" class="signup-field-input signup-field--firstname" data-field="name" placeholder="First" aria-label="First Name">
+                        <input type="text" class="'signup-field-input signup-field--lastname" data-field="name" placeholder="Last" aria-label="Last Name">
+                    </div>
+                    <div class="signup-field-error"></div>
+                </fieldset>
+                <fieldset class="signup-field signup-field--username">
+                    <legend class="signup-field-header">Choose your userame</legend>
+                    <div class="signup-field-inputs">
+                        <input type="text" class="signup-field-input signup-field--username" data-field="username" aria-label="Username">
+                    </div>
+                    <div class="signup-field-error"></div>
+                </fieldset>
+                <fieldset class="signup-field signup-field--password">
+                    <legend class="signup-field-header">Create a password</legend>
+                    <div class="signup-field-inputs">
+                        <input type="password" class="signup-field-input signup-field--password" data-field="password" aria-label="Password">
+                    </div>
+                    <div class="signup-field-guide signup-field-guide--password"></div>
+                    <div class="signup-field-error"></div>
+                </fieldset>
+                <fieldset class="signup-field signup-field--confirm-password">
+                    <legend class="signup-field-header">Confirm your password</legend>
+                    <div class="signup-field-inputs">
+                        <input type="password" class="signup-field-input signup-field--confirm-password" data-field="confirmPassword" aria-label="Confirm Password">
+                    </div>
+                    <div class="signup-field-error"></div>
+                </fieldset>
+                <fieldset class="signup-field signup-field--birthday">
+                    <legend class="signup-field-header">Birthday</legend>
+                    <div class="signup-field-inputs">
+                        <div class="signup-field-input signup-field-selection">Month</div>
+                        <input type="hidden" class="signup-field-input signup-field--birth-month" data-field="month" aria-label="Month">
+                        <input type="text" class="signup-field-input signup-field--birth-day" data-field="day" placeholder="Day" aria-label="Day">
+                        <input type="text" class="signup-field-input signup-field--birth-year" data-field="year" placeholder="Year" aria-label="Year">
+                    </div>
+                    <div class="signup-field-error"></div>
+                </fieldset>
+                <fieldset class="signup-field signup-field--phone">
+                    <legend class="signup-field-header">Mobile phone</legend>
+                    <div class="signup-field-inputs">
+                        <input type="text" class="signup-field-input signup-field--phone" data-field="phoneNumber" aria-label="Phone">
+                    </div>
+                    <div class="signup-field-error"></div>
+                </fieldset>
+                <fieldset class="signup-field signup-field--current-email">
+                    <legend class="signup-field-header">Your current email address</legend>
+                    <div class="signup-field-inputs">
+                        <input type="text" class="signup-field-input signup-field--current-email" data-field="email" aria-label="Email">
+                    </div>
+                    <div class="signup-field-error"></div>
+                </fieldset>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
