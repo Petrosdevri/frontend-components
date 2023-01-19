@@ -1,9 +1,7 @@
-:root {
-    --grey: #CCCCCC;
-    --light-grey: #E6E6E6;
-    --button-grey: #757575;
-    --button-bg-grey: #F1F1F1;
-}
+$grey: #CCCCCC;
+$light-grey: #E6E6E6;
+$button-grey: #757575;
+$button-bg-grey: #F1F1F1;
 
 .search {
     width: 36rem;
@@ -18,7 +16,7 @@
 
 .search-bar {
     position: relative;
-    border: 1px solid var(--grey);
+    border: 1px solid $grey;
     border-radius: 2px;
     box-shadow: 1px 4px 8px #D3D3D3;
 }
@@ -43,7 +41,7 @@
 }
 
 .search-suggestions {
-    border: 1px solid var(--grey);
+    border: 1px solid $grey;
     border-top: 0;
     border-bottom: 0;
     font-size: 1em;
@@ -62,11 +60,11 @@
 }
 
 .search-suggestions-list:last-child {
-    border: 1px solid var(--grey);
+    border: 1px solid $grey;
 }
 
 .search-suggestions-list-result:hover {
-    background: var(--light-grey);
+    background: $light-grey;
     cursor: pointer;
 }
 
@@ -81,7 +79,7 @@
 
 .search-actions-autosuggest {
     margin: 0;
-    border: 1px solid var(--grey);
+    border: 1px solid $grey;
     border-top: 0;
     padding: 1em 0 0.1em 0;
 }
@@ -90,9 +88,9 @@
     height: 2em; 
     font-size: 13px;
     font-weight: 700;
-    color: var(--button-grey);
+    color: $button-grey;
     margin-top: 1em;
-    background: var(--button-bg-grey);
+    background: $button-bg-grey;
     padding: 0.4em 1em;
     outline: none;
     border: none;
