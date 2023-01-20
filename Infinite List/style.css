@@ -1,0 +1,28 @@
+.tweet {
+    background: #CFCFCF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 38rem;
+    position: relative;
+    padding: 10px;
+}
+
+.tweet-avatar-img {
+    border-bottom: 10px solid #004AAD;
+    vertical-align: top;
+}
+
+.tweet-avatar, .tweet-main {
+    display: inline-block;
+}
+
+.tweet-icon {
+    width: 40px;
+    height: 30px;
+}
+
+.tweet-menu-icon {
+    vertical-align: top;
+}
