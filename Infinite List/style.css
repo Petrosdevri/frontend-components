@@ -1,17 +1,27 @@
 .tweet {
-    background: #CFCFCF;
+    background: #FFF;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 38rem;
     position: relative;
     padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #CFCFCF;
+}
+
+.tweet-avatar {
+    width: 6rem;
 }
 
 .tweet-avatar-img {
-    border-bottom: 10px solid #004AAD;
-    vertical-align: top;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    position: absolute;
+    left: 2rem;
+    top: 0.5rem;
 }
 
 .tweet-avatar, .tweet-main {
@@ -21,6 +31,43 @@
 .tweet-icon {
     width: 40px;
     height: 30px;
+}
+
+.tweet-main-header, .tweet-main-message, .tweet-main-footer {
+    width: 200px;
+    height: 35px;
+    position: relative;
+    left: -12rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.tweet-main-header-item--name {
+    font-weight: 700;
+}
+
+.tweet-main-header-item--handle {
+    font-weight: 400;
+    color: #A9A9A9;
+}
+
+.tweet-main-header-item--duration {
+    font-weight: 400;
+    color: #A9A9A9;
+    margin-left: 5px;
+}
+
+.tweet-main-footer-item  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweet-menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 .tweet-menu-icon {
