@@ -57,7 +57,6 @@ function removeTooltip() {
   
     toolTipTail.style.top = `${y - toolTipTailHeight/2}px`;
     toolTipTail.style.left = `${x - toolTipTailWidth/2}px`;
-  
   }
   
   document.onmouseup = () => {
