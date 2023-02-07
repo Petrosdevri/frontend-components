@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Autovalidating Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Do you have a driver's license? <span aria-label="required">*</span></legend>
+                <input type="radio" name="driver" value="yes" id="r1" required /><label for="r1">Yes</label>
+                <input type="radio" name="driver" value="no" id="r2" required /><label for="r2">No</label>
+            </fieldset>
+            <label for="n1">How old are you?</label><br>
+            <input type="number" name="age" id="n1" min="16" max="100" required pattern="\d+" /><br>
+            <label for="t1">What's your favorite fruit?</label><br>
+            <input type="text" id="t1" list="fruits" pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry||[Ll]emon|[Oo]range" required />
+            <datalist id="fruits">
+                <option value="Banana">
+                <option value="Cherry">
+                <option value="Apple">
+                <option value="Strawberry">
+                <option value="Lemon">
+                <option value="Orange">
+            </datalist><br>
+            <label for="t2">What's your email address?</label><br>
+            <input type="email" id="t2" name="email" required><br>
+            <label for="t3">Leave a short message</label><br>
+            <textarea id="t3" name="message" maxlength="150" rows="5"></textarea><br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

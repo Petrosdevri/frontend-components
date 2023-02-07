@@ -1,0 +1,29 @@
+* {
+    font: 1em sans-serif;
+}
+
+form > * {
+    margin: 10px;
+}
+
+input, fieldset, textarea {
+    border: 1px solid #BBB;
+}
+
+input:invalid, fieldset:invalid {
+    border: 1px dashed #F00;
+}
+
+button {
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 7.5px;
+}
+
+button:hover {
+    background-color: #DAA520;
+    cursor: pointer;
+}

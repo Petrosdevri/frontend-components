@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+}
+body .wrapper {
+  background: #F1F1F1;
+  padding: 1em;
+  width: 20em;
+  margin: 0 auto;
+}
+body .wrapper h1 {
+  text-align: center;
+}
+body .wrapper .signup-field {
+  border: none;
+}
+body .wrapper .signup-field .singup-field-header {
+  font-size: 13px;
+  font-weight: 700;
+}
+body .wrapper .signup-field .signup-field-inputs {
+  display: flex;
+  flex-direction: row;
+}
+body .wrapper .signup-field .signup-field-inputs .signup-field-input {
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 2em;
+  border: 1px solid #545454;
+  padding: 0.2em;
+  margin-right: 0.5em;
+}
+body .wrapper .signup-field .signup-field-inputs .signup-field-selection {
+  font-size: 13px;
+  width: 5em;
+}
+body .wrapper .signup-field .signup-field-error {
+  color: #ff0000;
+}
+body .wrapper .signup-field .signup-field-error .signup-field-input--error {
+  border: 1px solid #ff0000;
+}/*# sourceMappingURL=style.css.map */
