@@ -1,0 +1,26 @@
+.error-message {
+    color: #DF0000;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+input.invalid {
+    border-color: #DF0000;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #ccc;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.disabled input {
+    opacity: 0.5;
+    pointer-events: none;
+}
