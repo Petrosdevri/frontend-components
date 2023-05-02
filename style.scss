@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&display=swap');
+
+// Variables
+$font-family1: 'Barlow', sans-serif;
+$theme-color: #fff;
+
+
+.container {
+    background: $theme-color;
+    color: #000;
+
+    h1 {
+        font-family: $font-family1;
+    }
+
+    p {
+        font-family: 'Fraunces', serif;
+    }
+
+    .components-table {
+        div > div {
+            .card-title {
+                font-size: 1.35rem;
+            }
+
+            .card-subtitle {
+                div {
+                    button {
+                        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        font-size: 0.8rem;
+                    }
+                    .html-btn {
+                        background: #E34F26;
+                        color: #fff;
+                        &:hover {
+                            background: #c43c1f;
+                        }
+                    }
+                    .css-btn {
+                        background: #1572B6;
+                        color: #fff;
+                        &:hover {
+                            background: #1f3bc4;
+                        }
+                    }
+                    .js-btn {
+                        background: #F7DF1E;
+                        &:hover {
+                            background: #E6C91A;
+                        }
+                    }
+                    .bootstrap-btn {
+                        background: #7952B3;
+                        color: #fff;
+                        &:hover {
+                            background: #4A336E;
+                        }
+                    }
+                    .scss-btn {
+                        background: #CC6699;
+                        color: #fff;
+                        &:hover {
+                            background: #B84D7F;
+                        }
+                    }
+                    .react-btn {
+                        background: #61DAFB;
+                        &:hover {
+                            background: #4fc8e9;
+                        }
+                    }
+                    .stylus-btn {
+                        background: #333333;
+                        color: #fff;
+                        &:hover {
+                            background: #1f1f1f;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

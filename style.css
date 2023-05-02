@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&display=swap");
+.container {
+  background: #fff;
+  color: #000;
+}
+.container h1 {
+  font-family: "Barlow", sans-serif;
+}
+.container p {
+  font-family: "Fraunces", serif;
+}
+.container .components-table div > div .card-title {
+  font-size: 1.35rem;
+}
+.container .components-table div > div .card-subtitle div button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.8rem;
+}
+.container .components-table div > div .card-subtitle div .html-btn {
+  background: #E34F26;
+  color: #fff;
+}
+.container .components-table div > div .card-subtitle div .html-btn:hover {
+  background: #c43c1f;
+}
+.container .components-table div > div .card-subtitle div .css-btn {
+  background: #1572B6;
+  color: #fff;
+}
+.container .components-table div > div .card-subtitle div .css-btn:hover {
+  background: #1f3bc4;
+}
+.container .components-table div > div .card-subtitle div .js-btn {
+  background: #F7DF1E;
+}
+.container .components-table div > div .card-subtitle div .js-btn:hover {
+  background: #E6C91A;
+}
+.container .components-table div > div .card-subtitle div .bootstrap-btn {
+  background: #7952B3;
+  color: #fff;
+}
+.container .components-table div > div .card-subtitle div .bootstrap-btn:hover {
+  background: #4A336E;
+}
+.container .components-table div > div .card-subtitle div .scss-btn {
+  background: #CC6699;
+  color: #fff;
+}
+.container .components-table div > div .card-subtitle div .scss-btn:hover {
+  background: #B84D7F;
+}
+.container .components-table div > div .card-subtitle div .react-btn {
+  background: #61DAFB;
+}
+.container .components-table div > div .card-subtitle div .react-btn:hover {
+  background: #4fc8e9;
+}
+.container .components-table div > div .card-subtitle div .stylus-btn {
+  background: #333333;
+  color: #fff;
+}
+.container .components-table div > div .card-subtitle div .stylus-btn:hover {
+  background: #1f1f1f;
+}
+
+/*# sourceMappingURL=style.css.map */
